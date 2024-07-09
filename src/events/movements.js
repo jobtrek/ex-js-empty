@@ -4,8 +4,16 @@
  * You need to display coordinates as follows : "x: 232, y: 332
  */
 export function mouseMovements() {
-  //
+  // Write your code here
 }
+
+const randomRGB = () => {
+  const o = Math.round,
+    r = Math.random,
+    s = 255
+  return "rgba(" + o(r() * s) + "," + o(r() * s) + "," + o(r() * s) + ")"
+}
+let enteringColor = ""
 
 /**
  * On the page, you have an input with the id "focus-me".
@@ -17,7 +25,7 @@ export function mouseMovements() {
  * Third, when you loose focus of the field, you need to reset the border color to the default one.
  */
 export function hoverFocusAndBlur() {
-  //
+  // Write your code here
 }
 
 /**
@@ -29,5 +37,5 @@ export function hoverFocusAndBlur() {
  * Take the opportunity to also apply this colour to the text of the 2 input labels.
  */
 export function changesOnInputEvents() {
-  //
+  // Write your code here
 }

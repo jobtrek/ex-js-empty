@@ -7,5 +7,5 @@
  * @return {string} true if n is bigger than 2
  */
 export function findAndReplacePreservingCase(needle, haystack, newWord) {
-  //
+  // Write your code here
 }
