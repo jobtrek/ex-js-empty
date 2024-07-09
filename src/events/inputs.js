@@ -4,7 +4,7 @@
  * If input his empty, you should not trigger the alert
  */
 export function displayInputContentInAlertOnEnterKey() {
-  //
+  // Write your code here
 }
 
 /**
@@ -13,7 +13,7 @@ export function displayInputContentInAlertOnEnterKey() {
  * the text should be added to a list of elements with id "list".
  */
 export function addElementsInListOnEnterKey() {
-  //
+  // Write your code here
 }
 
 /**
@@ -21,5 +21,5 @@ export function addElementsInListOnEnterKey() {
  * Use the same list as the previous exercise. "#list"
  */
 export function removeElementsFromListWhenClicked() {
-  //
+  // Write your code here
 }

@@ -6,5 +6,5 @@
  * Then, you have to display the content returned by the api on the "pre" tag with id "display-here"
  */
 export function fetchDataOnClick() {
-  //
+  // Write your code here
 }

@@ -10,7 +10,7 @@
  * The values of the properties should be "Toto", "Tutu"
  */
 export function crateUserObject() {
-  //
+  // Write your code here
 }
 
 /**
@@ -19,7 +19,7 @@ export function crateUserObject() {
  * @return string a concatenation of the first and last name, separated with a space
  */
 export function accessPropertiesInObjects(object) {
-  //
+  // Write your code here
 }
 
 /**
@@ -30,7 +30,7 @@ export function accessPropertiesInObjects(object) {
  * and all original object values mapped to lower case
  */
 export function iteratesThroughObjectValuesAndProperties(object) {
-  //
+  // Write your code here
 }
 
 /**
@@ -39,7 +39,7 @@ export function iteratesThroughObjectValuesAndProperties(object) {
  * @return {{younger: string, older: string}}
  */
 export function retrieveMaximumMinimumUserAges(users) {
-  //
+  // Write your code here
 }
 
 /**
@@ -49,7 +49,7 @@ export function retrieveMaximumMinimumUserAges(users) {
  * @return {Object} An object retried by parsing the string
  */
 export function parseJavaScriptObjectNotation(string) {
-  //
+  // Write your code here
 }
 
 /**
@@ -57,5 +57,5 @@ export function parseJavaScriptObjectNotation(string) {
  * @return {string} An string representing the given object
  */
 export function stringifyJavaScriptObjectNotation(object) {
-  //
+  // Write your code here
 }

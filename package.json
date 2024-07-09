@@ -1,7 +1,7 @@
 {
   "name": "ex-js",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.19",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,12 +10,12 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@playwright/test": "^1.38.1",
-    "@types/node": "^20.8.4",
-    "vite": "^4.4.5",
-    "vitest": "^0.34.6"
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10",
+    "vite": "^5.3.3",
+    "vitest": "^2.0.1"
   },
   "dependencies": {
-    "prettier": "^3.0.3"
+    "prettier": "^3.3.2"
   }
 }

@@ -3,7 +3,7 @@
  * @return {number} sphere volume
  */
 export function computeSphereVolume(diameter) {
-  //
+  // Write your code here
 }
 
 /**
@@ -11,7 +11,7 @@ export function computeSphereVolume(diameter) {
  * @return {number} number rounded to one decimal
  */
 export function roundNumberToOneDecimals(n) {
-  //
+  // Write your code here
 }
 
 /**
@@ -19,7 +19,7 @@ export function roundNumberToOneDecimals(n) {
  * @return {number} average with full precision
  */
 export function computeAverage(grades) {
-  //
+  // Write your code here
 }
 
 /**
@@ -27,5 +27,5 @@ export function computeAverage(grades) {
  * @return {number} rounded average to 1 decimal
  */
 export function roundedAverage(grades) {
-  //
+  // Write your code here
 }
