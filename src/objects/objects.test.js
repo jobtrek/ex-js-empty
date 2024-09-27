@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, it, test, expect } from "vitest"
+import { describe, expect, expectTypeOf, it, test } from 'vitest'
 import {
   accessPropertiesInObjects,
   crateUserObject,
@@ -6,98 +6,98 @@ import {
   parseJavaScriptObjectNotation,
   retrieveMaximumMinimumUserAges,
   stringifyJavaScriptObjectNotation,
-} from "./objects.js"
+} from './objects.js'
 
-describe("Object creation :", () => {
-  it("Should have properties", () => {
+describe('Object creation :', () => {
+  it('Should have properties', () => {
     expectTypeOf(crateUserObject())
-      .toHaveProperty("first_name")
-      .toHaveProperty("last_name")
+      .toHaveProperty('first_name')
+      .toHaveProperty('last_name')
   })
 
-  it("Should contain values", () => {
-    expect(crateUserObject().first_name).toBe("Toto")
-    expect(crateUserObject().last_name).toBe("Tutu")
-  })
-})
-
-describe("Access properties :", () => {
-  it("Should return string with properties chained", () => {
-    expect(
-      accessPropertiesInObjects({ first_name: "Toto", last_name: "Tutu" }),
-    ).toBe("Toto Tutu")
-    expect(
-      accessPropertiesInObjects({ first_name: "Tata", last_name: "Titi" }),
-    ).toBe("Tata Titi")
-    expect(
-      accessPropertiesInObjects({ first_name: "Tutu", last_name: "Tata" }),
-    ).toBe("Tutu Tata")
+  it('Should contain values', () => {
+    expect(crateUserObject().first_name).toBe('Toto')
+    expect(crateUserObject().last_name).toBe('Tutu')
   })
 })
 
-describe("Iterates through keys and properties :", () => {
-  it("Should return keys uppercase and values lowercase", () => {
+describe('Access properties :', () => {
+  it('Should return string with properties chained', () => {
+    expect(
+      accessPropertiesInObjects({ first_name: 'Toto', last_name: 'Tutu' }),
+    ).toBe('Toto Tutu')
+    expect(
+      accessPropertiesInObjects({ first_name: 'Tata', last_name: 'Titi' }),
+    ).toBe('Tata Titi')
+    expect(
+      accessPropertiesInObjects({ first_name: 'Tutu', last_name: 'Tata' }),
+    ).toBe('Tutu Tata')
+  })
+})
+
+describe('Iterates through keys and properties :', () => {
+  it('Should return keys uppercase and values lowercase', () => {
     expect(
       iteratesThroughObjectValuesAndProperties({
-        key: "Value",
+        key: 'Value',
       }),
     ).toStrictEqual({
-      keys: ["KEY"],
-      values: ["value"],
+      keys: ['KEY'],
+      values: ['value'],
     })
     expect(
       iteratesThroughObjectValuesAndProperties({
-        first_name: "Toto",
-        last_name: "Tutu",
+        first_name: 'Toto',
+        last_name: 'Tutu',
       }),
     ).toStrictEqual({
-      keys: ["FIRST_NAME", "LAST_NAME"],
-      values: ["toto", "tutu"],
+      keys: ['FIRST_NAME', 'LAST_NAME'],
+      values: ['toto', 'tutu'],
     })
   })
 })
 
-describe("Find older and younger :", () => {
-  test("Only one younger and older", () => {
+describe('Find older and younger :', () => {
+  test('Only one younger and older', () => {
     expect(
       retrieveMaximumMinimumUserAges([
-        { name: "Toto", age: 20 },
-        { name: "Tata", age: 18 },
-        { name: "Titi", age: 28 },
-        { name: "Tutu", age: 32 },
+        { name: 'Toto', age: 20 },
+        { name: 'Tata', age: 18 },
+        { name: 'Titi', age: 28 },
+        { name: 'Tutu', age: 32 },
       ]),
     ).toStrictEqual({
-      younger: "Tata",
-      older: "Tutu",
+      younger: 'Tata',
+      older: 'Tutu',
     })
   })
-  test("Multiple younger and older", () => {
+  test('Multiple younger and older', () => {
     expect(
       retrieveMaximumMinimumUserAges([
-        { name: "Toto", age: 20 },
-        { name: "Tim", age: 18 },
-        { name: "Tata", age: 18 },
-        { name: "Titi", age: 28 },
-        { name: "Tutu", age: 32 },
-        { name: "Tom", age: 32 },
+        { name: 'Toto', age: 20 },
+        { name: 'Tim', age: 18 },
+        { name: 'Tata', age: 18 },
+        { name: 'Titi', age: 28 },
+        { name: 'Tutu', age: 32 },
+        { name: 'Tom', age: 32 },
       ]),
     ).toStrictEqual({
-      younger: "Tim",
-      older: "Tom",
+      younger: 'Tim',
+      older: 'Tom',
     })
   })
 })
 
-describe("Work with JSON", () => {
-  test("Parse JSON", () => {
+describe('Work with JSON', () => {
+  test('Parse JSON', () => {
     expect(parseJavaScriptObjectNotation('{"name":"toto"}')).toStrictEqual({
-      name: "toto",
+      name: 'toto',
     })
   })
-  test("Stringify JSON", () => {
+  test('Stringify JSON', () => {
     expect(
       stringifyJavaScriptObjectNotation({
-        name: "toto",
+        name: 'toto',
       }),
     ).toBe('{"name":"toto"}')
   })
