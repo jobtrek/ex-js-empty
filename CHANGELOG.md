@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.21](https://github.com/jobtrek/ex-js/compare/v1.0.20...v1.0.21) (2024-10-25)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 1.9.2 to 1.9.4 ([#127](https://github.com/jobtrek/ex-js/issues/127)) ([75da581](https://github.com/jobtrek/ex-js/commit/75da581dc57cfdd148ea8a9c167ff1091b4d060e))
+* **deps-dev:** bump @playwright/test from 1.47.2 to 1.48.1 ([#128](https://github.com/jobtrek/ex-js/issues/128)) ([d9e7a91](https://github.com/jobtrek/ex-js/commit/d9e7a910b2df382718dccff2f321deaa1a034e50))
+* **deps-dev:** bump @types/node from 20.16.10 to 20.16.13 ([#129](https://github.com/jobtrek/ex-js/issues/129)) ([61a8063](https://github.com/jobtrek/ex-js/commit/61a80636a2226f19939e6a0130775e82591811cd))
+* **deps-dev:** bump @types/node from 20.16.5 to 20.16.10 ([#119](https://github.com/jobtrek/ex-js/issues/119)) ([261f3d8](https://github.com/jobtrek/ex-js/commit/261f3d810097c9dcd934d27ab0919a870f4d8d79))
+* **deps-dev:** bump vite from 5.4.8 to 5.4.10 ([#131](https://github.com/jobtrek/ex-js/issues/131)) ([865661b](https://github.com/jobtrek/ex-js/commit/865661bc38822d351f6140a8e2170921c3b64a6f))
+* **deps-dev:** bump vitest from 2.1.1 to 2.1.3 ([#124](https://github.com/jobtrek/ex-js/issues/124)) ([e0f0d6c](https://github.com/jobtrek/ex-js/commit/e0f0d6cd7edcde8e127f5d8b449c52c16b8385d4))
+* **deps:** bump rollup from 4.21.1 to 4.24.0 ([#130](https://github.com/jobtrek/ex-js/issues/130)) ([a795d2a](https://github.com/jobtrek/ex-js/commit/a795d2a3abb1e150e7d619a3f27f631383467305))
+
 ## [1.0.20](https://github.com/jobtrek/ex-js/compare/v1.0.19...v1.0.20) (2024-09-25)
 
 
