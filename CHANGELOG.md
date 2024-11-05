@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.24](https://github.com/jobtrek/ex-js/compare/v1.0.23...v1.0.24) (2024-11-05)
+
+
+### Continuous Integration
+
+* add workflow job to execute playwright tests ([#140](https://github.com/jobtrek/ex-js/issues/140)) ([9154eaf](https://github.com/jobtrek/ex-js/commit/9154eaff433f7805a80e6615c50a9cb0767521f1))
+
 ## [1.0.23](https://github.com/jobtrek/ex-js/compare/v1.0.22...v1.0.23) (2024-11-05)
 
 
