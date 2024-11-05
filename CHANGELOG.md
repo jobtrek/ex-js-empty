@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.0.23](https://github.com/jobtrek/ex-js/compare/v1.0.22...v1.0.23) (2024-11-05)
+
+
+### Miscellaneous Chores
+
+* add script to run biome format ([2f0f31d](https://github.com/jobtrek/ex-js/commit/2f0f31d9f2e5b9fbda780f299c395a470511aac2))
+* update playwright config to module exports ([2f0f31d](https://github.com/jobtrek/ex-js/commit/2f0f31d9f2e5b9fbda780f299c395a470511aac2))
+* update to node 22 (types) ([2f0f31d](https://github.com/jobtrek/ex-js/commit/2f0f31d9f2e5b9fbda780f299c395a470511aac2))
+
+
+### Documentation
+
+* add instructions to use docker with playwright ([#138](https://github.com/jobtrek/ex-js/issues/138)) ([2f0f31d](https://github.com/jobtrek/ex-js/commit/2f0f31d9f2e5b9fbda780f299c395a470511aac2))
+
+## [1.0.22](https://github.com/jobtrek/ex-js/compare/v1.0.21...v1.0.22) (2024-11-05)
+
+
+### Build System
+
+* **deps-dev:** bump @playwright/test from 1.48.1 to 1.48.2 ([#132](https://github.com/jobtrek/ex-js/issues/132)) ([316c6e9](https://github.com/jobtrek/ex-js/commit/316c6e9f0dce7fafe3e51664bd4a2d96447695ed))
+* **deps-dev:** bump @types/node from 20.16.13 to 20.17.1 ([#134](https://github.com/jobtrek/ex-js/issues/134)) ([c4c8011](https://github.com/jobtrek/ex-js/commit/c4c80111b58864b6557c66651195c77e442fb838))
+* **deps-dev:** bump @types/node from 20.17.1 to 20.17.6 ([#137](https://github.com/jobtrek/ex-js/issues/137)) ([2693a4c](https://github.com/jobtrek/ex-js/commit/2693a4cb97a23854d11ff1132b7f5f594b0053e7))
+* **deps-dev:** bump vitest from 2.1.3 to 2.1.4 ([#133](https://github.com/jobtrek/ex-js/issues/133)) ([8dc12f7](https://github.com/jobtrek/ex-js/commit/8dc12f739bf3e28edce28829a9322acf30a453d2))
+* **deps:** bump actions/setup-node from 4.0.4 to 4.1.0 ([#135](https://github.com/jobtrek/ex-js/issues/135)) ([ca493d8](https://github.com/jobtrek/ex-js/commit/ca493d8f6595f840b9d35f46041b39f717099cd7))
+
 ## [1.0.21](https://github.com/jobtrek/ex-js/compare/v1.0.20...v1.0.21) (2024-10-25)
 
 
