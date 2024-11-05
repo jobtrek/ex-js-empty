@@ -16,6 +16,7 @@ npm i
 # Install playwright browser for e2e tests
 npx playwright install
 ```
+[Check here if you distribution does not support playwritht](#note-for-distributions-not-directly-supported-by-playwright)
 
 ## Simple syntax exercises
 
@@ -41,3 +42,22 @@ npx playwright install
 3. [Input events](src/events/inputs.js)
 4. [Mouse and focus events](src/events/movements.js)
 5. [Fetch data](src/fetch/fetchData.js)
+
+### Note for distributions not directly supported by playwright
+
+You can easily run the playwright server on a docker container :
+```shell
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.48.2-noble /bin/sh
+ -c "cd /home/pwuser && npx -y playwright@1.48.2 run-server --port 8080"
+```
+This will start a docker container with the playwright server and all the browsers binary and libraries.
+
+Then, when running your playwright tests, just add an environment variable with the server location :
+```shell
+PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ npx playwright test
+# Or with UI
+PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ npx playwright test --ui-port=9090
+```
+With this setup, the tests logic will run on the host, put the browsers in the container.
+
+> More infos [here](https://discuss.layer5.io/t/how-to-setup-e2e-testing-environment-with-playwright-and-docker-for-meshery/5498).
