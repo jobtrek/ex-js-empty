@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.25](https://github.com/jobtrek/ex-js/compare/v1.0.24...v1.0.25) (2024-11-08)
+
+
+### Documentation
+
+* some typings improvements on readme ([#142](https://github.com/jobtrek/ex-js/issues/142)) ([7751472](https://github.com/jobtrek/ex-js/commit/775147224692f9510771528a548a357421d0d2bf))
+
 ## [1.0.24](https://github.com/jobtrek/ex-js/compare/v1.0.23...v1.0.24) (2024-11-05)
 
 
