@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.26](https://github.com/jobtrek/ex-js/compare/v1.0.25...v1.0.26) (2024-11-08)
+
+
+### Tests
+
+* **objects:** fix malformed object properties test ([#144](https://github.com/jobtrek/ex-js/issues/144)) ([d2d313e](https://github.com/jobtrek/ex-js/commit/d2d313e681e3a759a5105c0d82977c18c29de8a2))
+
 ## [1.0.25](https://github.com/jobtrek/ex-js/compare/v1.0.24...v1.0.25) (2024-11-08)
 
 
