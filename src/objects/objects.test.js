@@ -10,9 +10,8 @@ import {
 
 describe('Object creation :', () => {
   it('Should have properties', () => {
-    expectTypeOf(crateUserObject())
-      .toHaveProperty('first_name')
-      .toHaveProperty('last_name')
+    expect(crateUserObject()).toHaveProperty('first_name')
+    expect(crateUserObject()).toHaveProperty('last_name')
   })
 
   it('Should contain values', () => {
