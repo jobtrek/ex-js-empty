@@ -4,8 +4,8 @@
 
 ## Setup
 
-Install node.js on your system, you need node 20 !
-You can use [nodesource builds to install node v20](https://github.com/nodesource/distributions#installation-instructions-1). 
+Install node.js on your system, you need node 22 !
+Depending on the os, you may use the official repositories [nodesource builds](https://github.com/nodesource/distributions#installation-instructions-1).
 
 ```shell
 # clone the repository or download the exercises
@@ -16,11 +16,11 @@ npm i
 # Install playwright browser for e2e tests
 npx playwright install
 ```
-[Check here if you distribution does not support playwritht](#note-for-distributions-not-directly-supported-by-playwright)
+[Check here if your distribution does not support playwright](#note-for-distributions-not-directly-supported-by-playwright)
 
 ## Simple syntax exercises
 
-> **Launch the tests by typing `npm run test`**, this will launch all tests, and rerun tests at each file change.
+> **Launch the tests by typing `npm run test`**, this will launch all tests and rerun them on file changes.
 > You can also launch test from your IDE.
 > You can browse tests, they are located in files ending with `.test.js`.
 
@@ -32,10 +32,10 @@ npx playwright install
 
 ## Interacting with browser and dom exercises
 
-> First you need to launch de dev server `npm run dev`, to see your results in the browser. **The dev
+> First you need to launch the dev server `npm run dev`, to see your results in the browser. **The dev
 > server must be started for the tests to execute correctly**.
 > **Launch the tests by typing `npx playwright test`**, if you encounter difficulties,
-> you can run the tests in ui mode, to see wich test fails : `npx playwright test --ui`.
+> you can run the tests in ui mode, to see which test fails : `npx playwright test --ui`.
 
 1. [Dom basics](src/dom/dom.js)
 2. [Click events](src/events/clicks.js)
@@ -58,6 +58,6 @@ PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ npx playwright test
 # Or with UI
 PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ npx playwright test --ui-port=9090
 ```
-With this setup, the tests logic will run on the host, put the browsers in the container.
+With this setup, the test logic will run on the host, but the browsers in the container.
 
-> More infos [here](https://discuss.layer5.io/t/how-to-setup-e2e-testing-environment-with-playwright-and-docker-for-meshery/5498).
+> More information [here](https://discuss.layer5.io/t/how-to-setup-e2e-testing-environment-with-playwright-and-docker-for-meshery/5498).
