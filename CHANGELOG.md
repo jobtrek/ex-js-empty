@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.27](https://github.com/jobtrek/ex-js/compare/v1.0.26...v1.0.27) (2024-11-11)
+
+
+### Bug Fixes
+
+* update return type hint in string exercise ([#146](https://github.com/jobtrek/ex-js/issues/146)) ([34af3c2](https://github.com/jobtrek/ex-js/commit/34af3c22971d20395aac37eaf6c610bd7abb8382))
+
 ## [1.0.26](https://github.com/jobtrek/ex-js/compare/v1.0.25...v1.0.26) (2024-11-08)
 
 
