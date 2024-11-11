@@ -4,7 +4,7 @@
  * @param {string} needle
  * @param {string} haystack
  * @param {string} newWord
- * @return {string} true if n is bigger than 2
+ * @return {string} the resulting string, with all needle words transformed to newWord
  */
 export function findAndReplacePreservingCase(needle, haystack, newWord) {
   // Write your code here
