@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.28](https://github.com/jobtrek/ex-js/compare/v1.0.27...v1.0.28) (2024-11-18)
+
+
+### Bug Fixes
+
+* update the docker command to run playwright server ([#150](https://github.com/jobtrek/ex-js/issues/150)) ([0b3441e](https://github.com/jobtrek/ex-js/commit/0b3441e2f41c8ff5df436455d63363348772f3b2))
+
+
+### Build System
+
+* **deps-dev:** bump vite from 5.4.10 to 5.4.11 ([#148](https://github.com/jobtrek/ex-js/issues/148)) ([d647996](https://github.com/jobtrek/ex-js/commit/d647996e5cf10ede41855a49249d2aac7fd5552f))
+
 ## [1.0.27](https://github.com/jobtrek/ex-js/compare/v1.0.26...v1.0.27) (2024-11-11)
 
 

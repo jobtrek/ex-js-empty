@@ -47,8 +47,7 @@ npx playwright install
 
 You can easily run the playwright server on a docker container :
 ```shell
-docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.48.2-noble /bin/sh
- -c "cd /home/pwuser && npx -y playwright@1.48.2 run-server --port 8080"
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.48.2-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.48.2 run-server --port 8080"
 ```
 This will start a docker container with the playwright server and all the browsers binary and libraries.
 
