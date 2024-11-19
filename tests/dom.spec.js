@@ -7,9 +7,9 @@ test.describe('dom exercises', () => {
   })
 
   test('Page is launched and has title and h1', async ({ page }) => {
-    await expect(page).toHaveTitle('JavaScrip exercises')
+    await expect(page).toHaveTitle('JavaScript exercises')
     await expect(
-      page.getByRole('heading', { name: 'JavaScrip exercises' }),
+      page.getByRole('heading', { name: 'JavaScript exercises' }),
     ).toBeVisible()
   })
 

@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.0.29](https://github.com/jobtrek/ex-js/compare/v1.0.28...v1.0.29) (2024-11-19)
+
+
+### Bug Fixes
+
+* typo in page title for dom exercises ([#154](https://github.com/jobtrek/ex-js/issues/154)) ([08e8b23](https://github.com/jobtrek/ex-js/commit/08e8b2370fad9bb1274434da450bc5d423a58ccc))
+* use playwright exact version to avoid bugs with other package ma… ([#153](https://github.com/jobtrek/ex-js/issues/153)) ([9b7f056](https://github.com/jobtrek/ex-js/commit/9b7f0560c1ff2adce63276fffbae73f6e438b6dc))
+
+
+### Documentation
+
+* add link for docker playwright section ([08e8b23](https://github.com/jobtrek/ex-js/commit/08e8b2370fad9bb1274434da450bc5d423a58ccc))
+
+
+### Build System
+
+* **deps-dev:** bump vitest from 2.1.4 to 2.1.5 ([#151](https://github.com/jobtrek/ex-js/issues/151)) ([a333a17](https://github.com/jobtrek/ex-js/commit/a333a1754d934e1123c0f7a4d8a936abf843c575))
+
+
+### Continuous Integration
+
+* update playwright installation command ([9b7f056](https://github.com/jobtrek/ex-js/commit/9b7f0560c1ff2adce63276fffbae73f6e438b6dc))
+
 ## [1.0.28](https://github.com/jobtrek/ex-js/compare/v1.0.27...v1.0.28) (2024-11-18)
 
 
