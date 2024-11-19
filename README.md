@@ -34,8 +34,9 @@ npx playwright install
 
 > First you need to launch the dev server `npm run dev`, to see your results in the browser. **The dev
 > server must be started for the tests to execute correctly**.
-> **Launch the tests by typing `npx playwright test`**, if you encounter difficulties,
-> you can run the tests in ui mode, to see which test fails : `npx playwright test --ui`.
+> **Launch the tests by typing `npx playwright test` or [see below if you use docker](#note-for-distributions-not-directly-supported-by-playwright)**,
+> if you encounter difficulties, you can run the tests in ui mode,
+> to see which test fails : `npx playwright test --ui`.
 
 1. [Dom basics](src/dom/dom.js)
 2. [Click events](src/events/clicks.js)
@@ -57,6 +58,6 @@ PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ npx playwright test
 # Or with UI
 PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ npx playwright test --ui-port=9090
 ```
-With this setup, the test logic will run on the host, but the browsers in the container.
+With this setup, the test logic will run on the host, but the browsers will remain in the container.
 
 > More information [here](https://discuss.layer5.io/t/how-to-setup-e2e-testing-environment-with-playwright-and-docker-for-meshery/5498).
