@@ -15,12 +15,14 @@ test.describe('events exercises', () => {
   })
 
   test('React to a click event', async ({ page }) => {
-    page.once('dialog', async (dialog) => {
+    const dialogPromise = page.waitForEvent('dialog', async (dialog) => {
       await expect(dialog.type()).toContain('alert')
       await expect(dialog.message()).toBe('Button clicked')
       await dialog.accept().catch(() => {})
+      return true
     })
     await page.locator('#click-me').click()
+    await dialogPromise
   })
 
   test('React to a click event, dom element creation', async ({ page }) => {
@@ -46,12 +48,14 @@ test.describe('events exercises', () => {
   }) => {
     await page.getByLabel('Input write-some-text').click()
     await page.getByLabel('Input write-some-text').fill('bonjour')
-    page.once('dialog', async (dialog) => {
+    const dialogPromise = page.waitForEvent('dialog', async (dialog) => {
       await expect(dialog.type()).toContain('alert')
       await expect(dialog.message()).toBe('bonjour')
       dialog.dismiss().catch(() => {})
+      return true
     })
     await page.getByLabel('Input write-some-text').press('Enter')
+    await dialogPromise
   })
 
   test('Add events on list on input change', async ({ page }) => {

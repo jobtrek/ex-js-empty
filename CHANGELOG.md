@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.30](https://github.com/jobtrek/ex-js/compare/v1.0.29...v1.0.30) (2024-12-06)
+
+
+### Tests
+
+* fix event test with wait for event in place of once ([#156](https://github.com/jobtrek/ex-js/issues/156)) ([4724038](https://github.com/jobtrek/ex-js/commit/4724038404a55e116ad073dc894747a09ba5dbee))
+
+
+### Build System
+
+* **deps-dev:** bump @playwright/test from 1.48.2 to 1.49.0 ([#155](https://github.com/jobtrek/ex-js/issues/155)) ([ae611fd](https://github.com/jobtrek/ex-js/commit/ae611fd4fc224a58f21920ac6231c795793e53d7))
+* **deps-dev:** bump vite from 5.4.11 to 6.0.3 ([#162](https://github.com/jobtrek/ex-js/issues/162)) ([8955983](https://github.com/jobtrek/ex-js/commit/89559833d9eeaf4b04b72046710f34349a58c2ea))
+* **deps-dev:** bump vitest from 2.1.5 to 2.1.8 ([#159](https://github.com/jobtrek/ex-js/issues/159)) ([23fdd9b](https://github.com/jobtrek/ex-js/commit/23fdd9b6047b790bab4eed6fe42c9d03b410cab1))
+
 ## [1.0.29](https://github.com/jobtrek/ex-js/compare/v1.0.28...v1.0.29) (2024-11-19)
 
 
