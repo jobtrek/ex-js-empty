@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.31](https://github.com/jobtrek/ex-js/compare/v1.0.30...v1.0.31) (2024-12-17)
+
+
+### Build System
+
+* **deps-dev:** bump @playwright/test from 1.49.0 to 1.49.1 ([#164](https://github.com/jobtrek/ex-js/issues/164)) ([ecfbbcc](https://github.com/jobtrek/ex-js/commit/ecfbbccd98e8e3da00c874e2adfa795a29f54a38))
+* **deps:** bump nanoid from 3.3.7 to 3.3.8 ([#163](https://github.com/jobtrek/ex-js/issues/163)) ([ede4bfb](https://github.com/jobtrek/ex-js/commit/ede4bfbd0141ad8e5417060752beec400c4656cb))
+
 ## [1.0.30](https://github.com/jobtrek/ex-js/compare/v1.0.29...v1.0.30) (2024-12-06)
 
 
