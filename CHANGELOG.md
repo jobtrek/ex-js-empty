@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.0.33](https://github.com/jobtrek/ex-js/compare/v1.0.32...v1.0.33) (2025-01-03)
+
+
+### Documentation
+
+* update playwright container version to node one ([#169](https://github.com/jobtrek/ex-js/issues/169)) ([7e6c43a](https://github.com/jobtrek/ex-js/commit/7e6c43a4eb142083866c486ac415d3e35bddf6ec))
+
+## [1.0.32](https://github.com/jobtrek/ex-js/compare/v1.0.31...v1.0.32) (2025-01-02)
+
+
+### Build System
+
+* **deps-dev:** bump vite from 6.0.3 to 6.0.6 ([#167](https://github.com/jobtrek/ex-js/issues/167)) ([d6ef042](https://github.com/jobtrek/ex-js/commit/d6ef04246c835e714685f1f57afbf24b519948d6))
+
+## [1.0.31](https://github.com/jobtrek/ex-js/compare/v1.0.30...v1.0.31) (2024-12-17)
+
+
+### Build System
+
+* **deps-dev:** bump @playwright/test from 1.49.0 to 1.49.1 ([#164](https://github.com/jobtrek/ex-js/issues/164)) ([ecfbbcc](https://github.com/jobtrek/ex-js/commit/ecfbbccd98e8e3da00c874e2adfa795a29f54a38))
+* **deps:** bump nanoid from 3.3.7 to 3.3.8 ([#163](https://github.com/jobtrek/ex-js/issues/163)) ([ede4bfb](https://github.com/jobtrek/ex-js/commit/ede4bfbd0141ad8e5417060752beec400c4656cb))
+
 ## [1.0.30](https://github.com/jobtrek/ex-js/compare/v1.0.29...v1.0.30) (2024-12-06)
 
 
