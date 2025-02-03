@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.34](https://github.com/jobtrek/ex-js/compare/v1.0.33...v1.0.34) (2025-02-03)
+
+
+### Miscellaneous Chores
+
+* **deps:** playwright from 1.49.1 to 1.50.1 ([#180](https://github.com/jobtrek/ex-js/issues/180)) ([1d1c3f7](https://github.com/jobtrek/ex-js/commit/1d1c3f71bfa49ac1736b345f0afe87d8ec6bea99))
+
+
+### Build System
+
+* **deps-dev:** bump vite from 6.0.6 to 6.0.11 ([#176](https://github.com/jobtrek/ex-js/issues/176)) ([957fdf3](https://github.com/jobtrek/ex-js/commit/957fdf36da191ea56b0d91c7d5e2c5e71c69cfdf))
+* **deps-dev:** bump vitest from 2.1.8 to 3.0.4 ([#177](https://github.com/jobtrek/ex-js/issues/177)) ([9aa8ac4](https://github.com/jobtrek/ex-js/commit/9aa8ac4c6ddbdfa613add86e5c0b49ca01f23ec5))
+
 ## [1.0.33](https://github.com/jobtrek/ex-js/compare/v1.0.32...v1.0.33) (2025-01-03)
 
 
