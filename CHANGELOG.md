@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/jobtrek/ex-js/compare/v1.0.36...v1.1.0) (2025-03-14)
+
+
+### Features
+
+* auto start server on playwright tests ([#190](https://github.com/jobtrek/ex-js/issues/190)) ([359ae92](https://github.com/jobtrek/ex-js/commit/359ae924b677ffd41d09c087492ed18f8d5ca958))
+
+
+### Build System
+
+* **deps-dev:** bump @playwright/test from 1.50.1 to 1.51.0 ([#188](https://github.com/jobtrek/ex-js/issues/188)) ([f5c3be1](https://github.com/jobtrek/ex-js/commit/f5c3be138c5428e41344b7dbe5fb5c75a8105aeb))
+* **deps-dev:** bump vite from 6.2.0 to 6.2.1 ([#187](https://github.com/jobtrek/ex-js/issues/187)) ([0b17d54](https://github.com/jobtrek/ex-js/commit/0b17d54353918e6389283fc12efe9f646debf4d0))
+* **deps-dev:** bump vitest from 3.0.7 to 3.0.8 ([#189](https://github.com/jobtrek/ex-js/issues/189)) ([868b9a3](https://github.com/jobtrek/ex-js/commit/868b9a33ff334b1f7563d334c9ec7833c1f45c55))
+
 ## [1.0.36](https://github.com/jobtrek/ex-js/compare/v1.0.35...v1.0.36) (2025-03-04)
 
 

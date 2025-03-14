@@ -32,11 +32,10 @@ npx playwright install
 
 ## Interacting with browser and dom exercises
 
-> First you need to launch the dev server `npm run dev`, to see your results in the browser. **The dev
-> server must be started for the tests to execute correctly**.
 > **Launch the tests by typing `npx playwright test` or [see below if you use docker](#note-for-distributions-not-directly-supported-by-playwright)**,
 > if you encounter difficulties, you can run the tests in ui mode,
 > to see which test fails : `npx playwright test --ui`.
+> When the test are launched, the dev server is automatically started
 
 1. [Dom basics](src/dom/dom.js)
 2. [Click events](src/events/clicks.js)
@@ -48,7 +47,7 @@ npx playwright install
 
 You can easily run the playwright server on a docker container :
 ```shell
-docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.50.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.50.1 run-server --port 8080"
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.50.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.51.0 run-server --port 8080"
 ```
 This will start a docker container with the playwright server and all the browsers binary and libraries.
 
