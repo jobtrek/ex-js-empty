@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.1](https://github.com/jobtrek/ex-js/compare/v1.1.0...v1.1.1) (2025-03-24)
+
+
+### Miscellaneous Chores
+
+* dependency updates node types 22.13.13 and vite 6.2.3 ([#197](https://github.com/jobtrek/ex-js/issues/197)) ([1a079c9](https://github.com/jobtrek/ex-js/commit/1a079c9a5d52e6ac635c5cfe11599f13d95ac131))
+
+
+### Refactors
+
+* use sw-wipe comments for sw 0.4.1 ([#196](https://github.com/jobtrek/ex-js/issues/196)) ([62bcd6a](https://github.com/jobtrek/ex-js/commit/62bcd6a0447db4889d27c98b2b71e14c63a6f12c)), closes [#194](https://github.com/jobtrek/ex-js/issues/194) [#172](https://github.com/jobtrek/ex-js/issues/172)
+
+
+### Build System
+
+* **deps-dev:** bump @playwright/test from 1.51.0 to 1.51.1 ([#193](https://github.com/jobtrek/ex-js/issues/193)) ([28f6019](https://github.com/jobtrek/ex-js/commit/28f601914df5831d1f06f4fdb1a6e37d8c89c224))
+* **deps-dev:** bump vitest from 3.0.8 to 3.0.9 ([#192](https://github.com/jobtrek/ex-js/issues/192)) ([4bff8f0](https://github.com/jobtrek/ex-js/commit/4bff8f0c52a16df9e76b1c9cd63f562df7efec99))
+
 ## [1.1.0](https://github.com/jobtrek/ex-js/compare/v1.0.36...v1.1.0) (2025-03-14)
 
 
