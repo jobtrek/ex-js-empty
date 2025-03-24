@@ -25,9 +25,9 @@ npx playwright install
 > You can browse tests, they are located in files ending with `.test.js`.
 
 1. [Basic conditions](src/basics/conditions.js)
-2. [Manipulating strings](src/basics/strings.js)
-3. [Maths](src/basics/maths.js)
-4. [Arrays](src/arrays/arrays.js)
+2. [Maths](src/basics/maths.js)
+3. [Arrays](src/arrays/arrays.js)
+4. [Manipulating strings](src/basics/strings.js)
 5. [Objects](src/objects/objects.js)
 
 ## Interacting with browser and dom exercises
@@ -47,7 +47,7 @@ npx playwright install
 
 You can easily run the playwright server on a docker container :
 ```shell
-docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.50.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.51.0 run-server --port 8080"
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.51.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.51.1 run-server --port 8080"
 ```
 This will start a docker container with the playwright server and all the browsers binary and libraries.
 
