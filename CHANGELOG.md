@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.2](https://github.com/jobtrek/ex-js/compare/v1.1.1...v1.1.2) (2025-04-04)
+
+
+### Documentation
+
+* update instructions to use pnpm ([#201](https://github.com/jobtrek/ex-js/issues/201)) ([9597148](https://github.com/jobtrek/ex-js/commit/959714877acf62e4231154b4b06373c69f7af789))
+
+
+### Build System
+
+* **deps-dev:** bump vite from 6.2.3 to 6.2.4 ([#198](https://github.com/jobtrek/ex-js/issues/198)) ([eb00c3e](https://github.com/jobtrek/ex-js/commit/eb00c3e224aa8f2a8ce5fa98f5078061762c850e))
+* **deps-dev:** bump vitest from 3.0.9 to 3.1.1 ([#199](https://github.com/jobtrek/ex-js/issues/199)) ([c3df2f0](https://github.com/jobtrek/ex-js/commit/c3df2f0b739bf153bfc62897a2beffc3d0c0f52b))
+
 ## [1.1.1](https://github.com/jobtrek/ex-js/compare/v1.1.0...v1.1.1) (2025-03-24)
 
 
