@@ -2,25 +2,26 @@
 
 > Some basic exercises to discover JS.
 
-## Setup
+## Prerequisites
 
-Install node.js on your system, you need node 22 !
-Depending on the os, you may use the official repositories [nodesource builds](https://github.com/nodesource/distributions#installation-instructions-1).
+- [Node.js](https://nodejs.org) version 22 installed on your system. **Use your linux distribution repository or [fnm](https://github.com/Schniz/fnm?tab=readme-ov-file#installation)**
+- [Pnpm](https://pnpm.io/installation) version 10 installed on your system. **Use pnpm official script for posix systems**
+
+## Project setup
 
 ```shell
-# clone the repository or download the exercises
+# Make a copy of this repo on you profile, with the "use this template" button on GitHub
+# clone the repository on your computer with git
 # Move into the repository
 cd ex-js
 # Install dependencies
-npm i
-# Install playwright browser for e2e tests
-npx playwright install
+pnpm i
 ```
 [Check here if your distribution does not support playwright](#note-for-distributions-not-directly-supported-by-playwright)
 
 ## Simple syntax exercises
 
-> **Launch the tests by typing `npm run test`**, this will launch all tests and rerun them on file changes.
+> **Launch the tests by typing `pnpm run test`**, this will launch all tests and rerun them on file changes.
 > You can also launch test from your IDE.
 > You can browse tests, they are located in files ending with `.test.js`.
 
@@ -32,10 +33,7 @@ npx playwright install
 
 ## Interacting with browser and dom exercises
 
-> **Launch the tests by typing `npx playwright test` or [see below if you use docker](#note-for-distributions-not-directly-supported-by-playwright)**,
-> if you encounter difficulties, you can run the tests in ui mode,
-> to see which test fails : `npx playwright test --ui`.
-> When the test are launched, the dev server is automatically started
+> To lauch the tests, see the [instructions below](<README#Lauch playwright tests with docker>) to setup playwright with docker.
 
 1. [Dom basics](src/dom/dom.js)
 2. [Click events](src/events/clicks.js)
@@ -43,7 +41,9 @@ npx playwright install
 4. [Mouse and focus events](src/events/movements.js)
 5. [Fetch data](src/fetch/fetchData.js)
 
-### Note for distributions not directly supported by playwright
+### Lauch playwright tests with docker
+
+First, install [docker engine](https://docs.docker.com/engine/install/) for your system.
 
 You can easily run the playwright server on a docker container :
 ```shell
