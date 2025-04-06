@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.3](https://github.com/jobtrek/ex-js/compare/v1.1.2...v1.1.3) (2025-04-06)
+
+
+### Miscellaneous Chores
+
+* pnpm 10, use pnpm-workspace for approve builds ([7b01fe7](https://github.com/jobtrek/ex-js/commit/7b01fe7bae89f81fff74f8ca135d24b693ea2ecd))
+
+
+### Documentation
+
+* update prerequisites and test command to pnpm ([#202](https://github.com/jobtrek/ex-js/issues/202)) ([7b01fe7](https://github.com/jobtrek/ex-js/commit/7b01fe7bae89f81fff74f8ca135d24b693ea2ecd))
+
+
+### Continuous Integration
+
+* update actions to pnpm 10 ([7b01fe7](https://github.com/jobtrek/ex-js/commit/7b01fe7bae89f81fff74f8ca135d24b693ea2ecd))
+
 ## [1.1.2](https://github.com/jobtrek/ex-js/compare/v1.1.1...v1.1.2) (2025-04-04)
 
 
