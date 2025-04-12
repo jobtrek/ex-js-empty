@@ -4,8 +4,8 @@
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org) version 22 installed on your system. **Use your linux distribution repository or [fnm](https://github.com/Schniz/fnm?tab=readme-ov-file#installation)**
-- [Pnpm](https://pnpm.io/installation) version 10 installed on your system. **Use pnpm official script for posix systems**
+- [Node.js](https://nodejs.org) version 22. **Use your linux distribution repository or [fnm](https://github.com/Schniz/fnm?tab=readme-ov-file#installation)**
+- [Pnpm](https://pnpm.io/installation) version 10. **Use pnpm official script for posix systems**
 
 ## Project setup
 
@@ -53,9 +53,9 @@ This will start a docker container with the playwright server and all the browse
 
 Then, when running your playwright tests, just add an environment variable with the server location :
 ```shell
-PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ npx playwright test
+PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ pnpm exec playwright test
 # Or with UI
-PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ npx playwright test --ui-port=9090
+PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ pnpm exec playwright test --ui-port=9090
 ```
 With this setup, the test logic will run on the host, but the browsers will remain in the container.
 
