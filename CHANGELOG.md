@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/jobtrek/ex-js/compare/v1.1.3...v1.1.4) (2025-05-16)
+
+
+### Miscellaneous Chores
+
+* deps update ([#204](https://github.com/jobtrek/ex-js/issues/204)) ([e8e3342](https://github.com/jobtrek/ex-js/commit/e8e3342e49c43b1ddb33dcf7229417592f257d63))
+
 ## [1.1.3](https://github.com/jobtrek/ex-js/compare/v1.1.2...v1.1.3) (2025-04-06)
 
 
