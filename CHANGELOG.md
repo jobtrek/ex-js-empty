@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/jobtrek/ex-js/compare/v1.1.4...v1.1.5) (2025-06-10)
+
+
+### Build System
+
+* **deps-dev:** bump vitest from 3.1.3 to 3.2.3 ([#207](https://github.com/jobtrek/ex-js/issues/207)) ([2edaf87](https://github.com/jobtrek/ex-js/commit/2edaf879673fc265547be369e94bdf44be09e3dc))
+
 ## [1.1.4](https://github.com/jobtrek/ex-js/compare/v1.1.3...v1.1.4) (2025-05-16)
 
 
