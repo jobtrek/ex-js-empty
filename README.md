@@ -47,7 +47,7 @@ First, install [docker engine](https://docs.docker.com/engine/install/) for your
 
 You can easily run the playwright server on a docker container :
 ```shell
-docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.51.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.51.1 run-server --port 8080"
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.53.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.53.1 run-server --port 8080"
 ```
 This will start a docker container with the playwright server and all the browsers binary and libraries.
 
