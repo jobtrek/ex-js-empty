@@ -1,4 +1,4 @@
-import { describe, expect, expectTypeOf, it, test } from 'vitest'
+import { describe, expect, it, test } from 'vitest'
 import {
   accessPropertiesInObjects,
   crateUserObject,

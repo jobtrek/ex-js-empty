@@ -2,8 +2,8 @@ import { describe, expect, it, test } from 'vitest'
 import {
   computeAverage,
   computeSphereVolume,
-  roundNumberToOneDecimals,
   roundedAverage,
+  roundNumberToOneDecimals,
 } from './maths.js'
 
 describe('Compute sphere volume :', () => {

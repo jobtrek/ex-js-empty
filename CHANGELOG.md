@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.6](https://github.com/jobtrek/ex-js/compare/v1.1.5...v1.1.6) (2025-06-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update and migrate to biome 2 ([7eb3243](https://github.com/jobtrek/ex-js/commit/7eb3243f6c94c93003e59a0d02814dbb254f9911))
+
+
+### Documentation
+
+* update playwright instructions for 1.53.1 ([#215](https://github.com/jobtrek/ex-js/issues/215)) ([7eb3243](https://github.com/jobtrek/ex-js/commit/7eb3243f6c94c93003e59a0d02814dbb254f9911))
+
+
+### Build System
+
+* **deps-dev:** bump @playwright/test from 1.52.0 to 1.53.1 ([#213](https://github.com/jobtrek/ex-js/issues/213)) ([de741dc](https://github.com/jobtrek/ex-js/commit/de741dc2ce58b80b78277b30a8b38534e5cba6bd))
+* **deps-dev:** bump vitest from 3.2.3 to 3.2.4 ([#211](https://github.com/jobtrek/ex-js/issues/211)) ([b03db20](https://github.com/jobtrek/ex-js/commit/b03db20772d4e63769ff0cbd9ba4d77245319e22))
+
 ## [1.1.5](https://github.com/jobtrek/ex-js/compare/v1.1.4...v1.1.5) (2025-06-10)
 
 
