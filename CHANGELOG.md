@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/jobtrek/ex-js/compare/v1.1.6...v1.1.7) (2025-08-04)
+
+
+### Build System
+
+* **deps-dev:** bump @types/node from 22.15.18 to 24.0.3 ([#210](https://github.com/jobtrek/ex-js/issues/210)) ([b01ace4](https://github.com/jobtrek/ex-js/commit/b01ace4b683dc717030106b74dd111a625d53d71))
+
 ## [1.1.6](https://github.com/jobtrek/ex-js/compare/v1.1.5...v1.1.6) (2025-06-24)
 
 
