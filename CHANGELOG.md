@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/jobtrek/ex-js/compare/v1.1.7...v1.1.8) (2025-08-15)
+
+
+### Build System
+
+* **deps:** bump actions/checkout from 4 to 5 ([#217](https://github.com/jobtrek/ex-js/issues/217)) ([815309d](https://github.com/jobtrek/ex-js/commit/815309deb8e69cc30904ec1361b2635f44bffd1f))
+
 ## [1.1.7](https://github.com/jobtrek/ex-js/compare/v1.1.6...v1.1.7) (2025-08-04)
 
 
