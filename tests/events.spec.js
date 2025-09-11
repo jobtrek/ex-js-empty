@@ -104,11 +104,19 @@ test.describe('events exercises', () => {
   })
 
   test('Should change labels on mouseover', async ({ page }) => {
+    // Check initial state - original labels should be visible
     await expect(page.getByText('Focus me :')).toHaveCount(1)
     await expect(page.getByText('A second label ! just for fun')).toHaveCount(1)
+
+    // Hover over the input and check that labels change
     await page.locator('#focus-me').hover()
     await expect(page.getByText('Yes, you hover me !')).toHaveCount(2)
-    await page.locator('#mouse-coordinates').hover()
+
+    // Move mouse away from the input to trigger mouseout
+    // Use a more explicit approach to ensure mouseout is triggered
+    await page.mouse.move(0, 0) // Move to top-left corner
+
+    // Check that original labels are restored
     await expect(page.getByText('Focus me :')).toHaveCount(1)
     await expect(page.getByText('A second label ! just for fun')).toHaveCount(1)
   })
