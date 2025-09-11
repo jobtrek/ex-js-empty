@@ -4,8 +4,9 @@
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org) version 22. **Use your linux distribution repository or [fnm](https://github.com/Schniz/fnm?tab=readme-ov-file#installation)**
-- [Pnpm](https://pnpm.io/installation) version 10. **Use pnpm official script for posix systems**
+- [Node.js](https://nodejs.org) version 24. **Use [fnm](https://github.com/Schniz/fnm?tab=readme-ov-file#installation) to get the latest version**
+- [Pnpm](https://pnpm.io/installation#on-posix-systems) version 10. **Use pnpm official script for posix systems**
+- [Docker](https://docs.docker.com/engine/install/), chose the right distribution installation instructions, don't forget to make the postinstallation steps.
 
 ## Project setup
 
@@ -17,7 +18,12 @@ cd ex-js
 # Install dependencies
 pnpm i
 ```
+
 [Check here if your distribution does not support playwright](#note-for-distributions-not-directly-supported-by-playwright)
+
+## Formatting
+
+Before any commit, don't forget to format your code : `pnpm format`.
 
 ## Simple syntax exercises
 
@@ -30,10 +36,13 @@ pnpm i
 3. [Arrays](src/arrays/arrays.js)
 4. [Manipulating strings](src/basics/strings.js)
 5. [Objects](src/objects/objects.js)
+6. [Recursion](src/recursion/recursion.js)
 
 ## Interacting with browser and dom exercises
 
-> To lauch the tests, see the [instructions below](<README#Lauch playwright tests with docker>) to setup playwright with docker.
+> To launch the tests, see the [instructions below](<README#Lauch playwright tests with docker>) to set up playwright with Docker.
+
+Use the `pnpm dev` command to start a local server and see the exercises in your browser.
 
 1. [Dom basics](src/dom/dom.js)
 2. [Click events](src/events/clicks.js)
@@ -41,22 +50,25 @@ pnpm i
 4. [Mouse and focus events](src/events/movements.js)
 5. [Fetch data](src/fetch/fetchData.js)
 
-### Lauch playwright tests with docker
+### Launch playwright tests with Docker
 
-First, install [docker engine](https://docs.docker.com/engine/install/) for your system.
+You can easily run the playwright server on a Docker container :
 
-You can easily run the playwright server on a docker container :
 ```shell
-docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.53.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.53.1 run-server --port 8080"
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.55.0-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.55.0 run-server --port 8080"
 ```
-This will start a docker container with the playwright server and all the browsers binary and libraries.
+
+This will start a Docker container with the playwright server and all the browsers binary and libraries.
 
 Then, when running your playwright tests, just add an environment variable with the server location :
+
 ```shell
+# Without UI, run all tests
 PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ pnpm exec playwright test
-# Or with UI
+# Or with UI, choose the tests to run in the web interface
 PW_TEST_CONNECT_WS_ENDPOINT=ws://localhost:8080/ pnpm exec playwright test --ui-port=9090
 ```
+
 With this setup, the test logic will run on the host, but the browsers will remain in the container.
 
 > More information [here](https://discuss.layer5.io/t/how-to-setup-e2e-testing-environment-with-playwright-and-docker-for-meshery/5498).

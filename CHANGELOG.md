@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.2.0](https://github.com/jobtrek/ex-js/compare/v1.1.9...v1.2.0) (2025-09-11)
+
+
+### Features
+
+* **recursion:** add factorial and Fibonacci functions with tests ([#223](https://github.com/jobtrek/ex-js/issues/223)) ([54d5f11](https://github.com/jobtrek/ex-js/commit/54d5f1119a09ea6a69025565931e30acd148babc)), closes [#14](https://github.com/jobtrek/ex-js/issues/14)
+
+
+### Tests
+
+* enhance mouseover label change tests ([#221](https://github.com/jobtrek/ex-js/issues/221)) ([08aad23](https://github.com/jobtrek/ex-js/commit/08aad235f62dd7046d11aa540267a6c7296fde33))
+* remove unnecessary timeout for mouseout event ([08aad23](https://github.com/jobtrek/ex-js/commit/08aad235f62dd7046d11aa540267a6c7296fde33)), closes [#160](https://github.com/jobtrek/ex-js/issues/160) [#161](https://github.com/jobtrek/ex-js/issues/161)
+
+## [1.1.9](https://github.com/jobtrek/ex-js/compare/v1.1.8...v1.1.9) (2025-09-11)
+
+
+### Build System
+
+* **deps:** bump actions/setup-node from 4 to 5 ([#219](https://github.com/jobtrek/ex-js/issues/219)) ([dc37586](https://github.com/jobtrek/ex-js/commit/dc37586d3f79acda56cc8df58f8497b32733b2a7))
+* **deps:** global dependencies update ([2034d85](https://github.com/jobtrek/ex-js/commit/2034d8529ebce662dc5a854ca772d53d87395341))
+
 ## [1.1.8](https://github.com/jobtrek/ex-js/compare/v1.1.7...v1.1.8) (2025-08-15)
 
 
