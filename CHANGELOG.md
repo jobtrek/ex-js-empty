@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/jobtrek/ex-js/compare/v1.2.0...v1.2.1) (2025-09-12)
+
+
+### Documentation
+
+* add infos for formatting with biome ([#224](https://github.com/jobtrek/ex-js/issues/224)) ([348a73f](https://github.com/jobtrek/ex-js/commit/348a73f429489ee616c658ac064d5186a33ed1a2))
+
 ## [1.2.0](https://github.com/jobtrek/ex-js/compare/v1.1.9...v1.2.0) (2025-09-11)
 
 
