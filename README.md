@@ -23,7 +23,9 @@ pnpm i
 
 ## Formatting
 
-Before any commit, don't forget to format your code : `pnpm format`.
+Before any commit, don't forget to format your code by running `pnpm format`. This is important to keep a consistent code style.
+> You can ignore the warnings, they will persist until you resolve each exercise.
+> You can also install the [VS Code biome extension](https://marketplace.visualstudio.com/items?itemName=biomejs.biome) to have format on save.
 
 ## Simple syntax exercises
 
