@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.2.3](https://github.com/jobtrek/ex-js/compare/v1.2.2...v1.2.3) (2025-09-19)
+
+
+### Bug Fixes
+
+* arrays instructions ([#230](https://github.com/jobtrek/ex-js/issues/230)) ([28d8dc7](https://github.com/jobtrek/ex-js/commit/28d8dc7f9b2d32694e0135b200f78af605117c66))
+
+## [1.2.2](https://github.com/jobtrek/ex-js/compare/v1.2.1...v1.2.2) (2025-09-19)
+
+
+### Documentation
+
+* formulation ([#229](https://github.com/jobtrek/ex-js/issues/229)) ([bce046c](https://github.com/jobtrek/ex-js/commit/bce046c25801b09ce0248f992d1eb7bc707af2f8))
+
+
+### Continuous Integration
+
+* execute ci action only on src changes ([#226](https://github.com/jobtrek/ex-js/issues/226)) ([fc5c3bd](https://github.com/jobtrek/ex-js/commit/fc5c3bd751efaf0550e7ca2f334174f1156b008b))
+
 ## [1.2.1](https://github.com/jobtrek/ex-js/compare/v1.2.0...v1.2.1) (2025-09-12)
 
 

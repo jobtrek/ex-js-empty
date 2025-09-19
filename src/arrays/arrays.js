@@ -20,7 +20,7 @@ export function concatenateArrays(array1, array2) {
  * @param {array} array an array of arbitrary elements
  * @param {number} index where you need to replace the element in the array
  * @param {...*} newElements
- * @return {array<*>} A new array, sorted, **the original array should not be modified**
+ * @return {array<*>} A new array, **the original array should not be modified**
  */
 export function replaceElementsInArrayAtAGivenPlace(
   array,
