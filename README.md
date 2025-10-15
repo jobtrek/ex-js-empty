@@ -42,7 +42,7 @@ To maintain a consistent code style, please format your code before each commit 
 
 ## Interacting with browser and dom exercises
 
-> To launch the tests, see the [instructions below](<README#Lauch playwright tests with docker>) to set up playwright with Docker.
+> To launch the tests, see the [instructions below](#Lauch playwright tests with docker) to set up playwright with Docker.
 
 Use the `pnpm dev` command to start a local server and see the exercises in your browser.
 
@@ -57,7 +57,7 @@ Use the `pnpm dev` command to start a local server and see the exercises in your
 You can easily run the playwright server on a Docker container :
 
 ```shell
-docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.55.0-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.55.0 run-server --port 8080"
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.56.0-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.56.0 run-server --port 8080"
 ```
 
 This will start a Docker container with the playwright server and all the browsers binary and libraries.

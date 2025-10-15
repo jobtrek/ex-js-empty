@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/jobtrek/ex-js/compare/v1.2.3...v1.2.4) (2025-10-15)
+
+
+### Miscellaneous Chores
+
+* global updates ([#232](https://github.com/jobtrek/ex-js/issues/232)) ([79012f6](https://github.com/jobtrek/ex-js/commit/79012f6857cb307567ebe9cc962488e75f1888e5))
+
 ## [1.2.3](https://github.com/jobtrek/ex-js/compare/v1.2.2...v1.2.3) (2025-09-19)
 
 
