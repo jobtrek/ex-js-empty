@@ -1,7 +1,7 @@
 {
   "name": "ex-js",
   "private": true,
-  "version": "1.2.3",
+  "version": "1.2.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,10 +11,10 @@
     "format": "biome check --write"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.4",
-    "@playwright/test": "^1.55.0",
-    "@types/node": "^24.3.1",
-    "vite": "^6.3.6",
+    "@biomejs/biome": "^2.2.6",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2",
+    "vite": "^7.1.10",
     "vitest": "^3.2.4"
   }
 }
