@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.6](https://github.com/jobtrek/ex-js/compare/v1.2.5...v1.2.6) (2025-11-05)
+
+
+### Miscellaneous Chores
+
+* biome schema update to 2.3.3 ([#249](https://github.com/jobtrek/ex-js/issues/249)) ([4aa380a](https://github.com/jobtrek/ex-js/commit/4aa380adf096d021e0d4d67c625f00a755481b2a))
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.3.1 to 2.3.3 ([#247](https://github.com/jobtrek/ex-js/issues/247)) ([71a3af8](https://github.com/jobtrek/ex-js/commit/71a3af87530ad03b679ff2e53afed554c068aac4))
+* **deps-dev:** bump @types/node from 24.9.1 to 24.10.0 ([#245](https://github.com/jobtrek/ex-js/issues/245)) ([5acf0e4](https://github.com/jobtrek/ex-js/commit/5acf0e43f3a17e70b9da42488cb177b2a742450b))
+* **deps-dev:** bump vitest from 4.0.4 to 4.0.6 ([#246](https://github.com/jobtrek/ex-js/issues/246)) ([d4f9188](https://github.com/jobtrek/ex-js/commit/d4f91886746d33e31ae6aff39e380bacb9fb0a34))
+
 ## [1.2.5](https://github.com/jobtrek/ex-js/compare/v1.2.4...v1.2.5) (2025-10-28)
 
 
