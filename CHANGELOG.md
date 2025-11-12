@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.7](https://github.com/jobtrek/ex-js/compare/v1.2.6...v1.2.7) (2025-11-12)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.3.3 to 2.3.4 ([#253](https://github.com/jobtrek/ex-js/issues/253)) ([30738e2](https://github.com/jobtrek/ex-js/commit/30738e2498baabad419755c8a349e3d5b5f1993a))
+* **deps-dev:** bump vite from 7.1.12 to 7.2.2 ([#252](https://github.com/jobtrek/ex-js/issues/252)) ([9294fbb](https://github.com/jobtrek/ex-js/commit/9294fbb9c49c49f696bfa5cb2daedee4add9ff10))
+* **deps-dev:** bump vitest from 4.0.6 to 4.0.8 ([#254](https://github.com/jobtrek/ex-js/issues/254)) ([e7e3b9d](https://github.com/jobtrek/ex-js/commit/e7e3b9d728e8886220ead6a258299f996eb7f6f7))
+
 ## [1.2.6](https://github.com/jobtrek/ex-js/compare/v1.2.5...v1.2.6) (2025-11-05)
 
 
