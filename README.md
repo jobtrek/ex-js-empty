@@ -57,7 +57,7 @@ Use the `pnpm dev` command to start a local server and see the exercises in your
 You can easily run the playwright server on a Docker container :
 
 ```shell
-docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.56.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.56.1 run-server --port 8080"
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.57.0-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.57.0 run-server --port 8080"
 ```
 
 This will start a Docker container with the playwright server and all the browsers binary and libraries.
