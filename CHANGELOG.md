@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.10](https://github.com/jobtrek/ex-js/compare/v1.2.9...v1.2.10) (2025-12-16)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.3.8 to 2.3.9 ([#270](https://github.com/jobtrek/ex-js/issues/270)) ([9adbd98](https://github.com/jobtrek/ex-js/commit/9adbd981ba5d373e6f59e681f12bbafcb7d0e5b5))
+* **deps-dev:** bump vite from 7.2.7 to 7.3.0 ([#269](https://github.com/jobtrek/ex-js/issues/269)) ([ebef022](https://github.com/jobtrek/ex-js/commit/ebef022eafdaefed76f286110693620c1fb469fe))
+* **deps:** bump actions/cache from 4 to 5 ([#272](https://github.com/jobtrek/ex-js/issues/272)) ([e5a300c](https://github.com/jobtrek/ex-js/commit/e5a300c352081a8523382f34905dbdc15d4ac731))
+* **deps:** bump actions/upload-artifact from 5 to 6 ([#274](https://github.com/jobtrek/ex-js/issues/274)) ([66a723c](https://github.com/jobtrek/ex-js/commit/66a723c1c195c04b42fd004ad4f9928c40a05299))
+* **deps:** bump peter-evans/create-pull-request from 7 to 8 ([#273](https://github.com/jobtrek/ex-js/issues/273)) ([c3e05b6](https://github.com/jobtrek/ex-js/commit/c3e05b63085847237cf2a892d3b743a59ea0720d))
+
 ## [1.2.9](https://github.com/jobtrek/ex-js/compare/v1.2.8...v1.2.9) (2025-12-12)
 
 
