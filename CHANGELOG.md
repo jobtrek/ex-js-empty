@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.12](https://github.com/jobtrek/ex-js/compare/v1.2.11...v1.2.12) (2026-01-13)
+
+
+### Build System
+
+* **deps-dev:** bump vite from 7.3.0 to 7.3.1 ([#282](https://github.com/jobtrek/ex-js/issues/282)) ([076b8a4](https://github.com/jobtrek/ex-js/commit/076b8a4fcc51b017cb28ae7a4732805792883854))
+* **deps-dev:** bump vitest from 4.0.16 to 4.0.17 ([#283](https://github.com/jobtrek/ex-js/issues/283)) ([3fd9290](https://github.com/jobtrek/ex-js/commit/3fd9290814d59a43829652a100c856c36c61c851))
+
 ## [1.2.11](https://github.com/jobtrek/ex-js/compare/v1.2.10...v1.2.11) (2026-01-06)
 
 
