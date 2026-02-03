@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.14](https://github.com/jobtrek/ex-js/compare/v1.2.13...v1.2.14) (2026-02-03)
+
+
+### Build System
+
+* **deps-dev:** bump @playwright/test from 1.58.0 to 1.58.1 ([#291](https://github.com/jobtrek/ex-js/issues/291)) ([0d7dafc](https://github.com/jobtrek/ex-js/commit/0d7dafcefa06a5a3b8d65f664572ab4d1788f8a8))
+
 ## [1.2.13](https://github.com/jobtrek/ex-js/compare/v1.2.12...v1.2.13) (2026-01-28)
 
 
