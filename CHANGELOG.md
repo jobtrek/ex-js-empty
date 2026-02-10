@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.15](https://github.com/jobtrek/ex-js/compare/v1.2.14...v1.2.15) (2026-02-10)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.3.13 to 2.3.14 ([#295](https://github.com/jobtrek/ex-js/issues/295)) ([0ae1324](https://github.com/jobtrek/ex-js/commit/0ae132437e8434064037954e480f7fab8ab42da6))
+* **deps-dev:** bump @playwright/test from 1.58.1 to 1.58.2 ([#296](https://github.com/jobtrek/ex-js/issues/296)) ([8ded1f5](https://github.com/jobtrek/ex-js/commit/8ded1f5197dc9708b88fca4e974c532af67f794d))
+
 ## [1.2.14](https://github.com/jobtrek/ex-js/compare/v1.2.13...v1.2.14) (2026-02-03)
 
 
