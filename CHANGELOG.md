@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.17](https://github.com/jobtrek/ex-js/compare/v1.2.16...v1.2.17) (2026-02-24)
+
+
+### Bug Fixes
+
+* **movements:** should use mouseenter for consistency ([#303](https://github.com/jobtrek/ex-js/issues/303)) ([69e7946](https://github.com/jobtrek/ex-js/commit/69e7946a1a87b446f30b07527a2e027aafd65f60))
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.4.1 to 2.4.4 ([#302](https://github.com/jobtrek/ex-js/issues/302)) ([c619dae](https://github.com/jobtrek/ex-js/commit/c619dae97e60c71cc810a9926308a3e8813eb117))
+
 ## [1.2.16](https://github.com/jobtrek/ex-js/compare/v1.2.15...v1.2.16) (2026-02-18)
 
 
