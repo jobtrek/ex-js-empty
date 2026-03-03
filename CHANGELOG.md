@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.18](https://github.com/jobtrek/ex-js/compare/v1.2.17...v1.2.18) (2026-03-03)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.4.4 to 2.4.5 ([#306](https://github.com/jobtrek/ex-js/issues/306)) ([f52328f](https://github.com/jobtrek/ex-js/commit/f52328f714d170518e579ff8d4fa748164825b7b))
+* **deps:** bump actions/upload-artifact from 6 to 7 ([#307](https://github.com/jobtrek/ex-js/issues/307)) ([aad01ea](https://github.com/jobtrek/ex-js/commit/aad01ea2716bd1d5b19f44ae91e27a9e00a3e73a))
+
 ## [1.2.17](https://github.com/jobtrek/ex-js/compare/v1.2.16...v1.2.17) (2026-02-24)
 
 
