@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.19](https://github.com/jobtrek/ex-js/compare/v1.2.18...v1.2.19) (2026-03-10)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.4.5 to 2.4.6 ([#309](https://github.com/jobtrek/ex-js/issues/309)) ([f370a42](https://github.com/jobtrek/ex-js/commit/f370a427d56ad3eaef92c6f10d805a1066a56b28))
+
 ## [1.2.18](https://github.com/jobtrek/ex-js/compare/v1.2.17...v1.2.18) (2026-03-03)
 
 
