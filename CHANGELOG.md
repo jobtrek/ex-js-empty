@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.22](https://github.com/jobtrek/ex-js/compare/v1.2.21...v1.2.22) (2026-04-01)
+
+
+### Bug Fixes
+
+* avoid content move on coordinates ([#326](https://github.com/jobtrek/ex-js/issues/326)) ([b67e88d](https://github.com/jobtrek/ex-js/commit/b67e88dfcfd03c1e324056f7eab88f2e177bc527))
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.4.8 to 2.4.10 ([#323](https://github.com/jobtrek/ex-js/issues/323)) ([204f943](https://github.com/jobtrek/ex-js/commit/204f943096fe1d2a9fdb807a92c18cbcd25772c6))
+* **deps-dev:** bump vite from 8.0.2 to 8.0.3 ([#324](https://github.com/jobtrek/ex-js/issues/324)) ([bc6b088](https://github.com/jobtrek/ex-js/commit/bc6b088e4959e4e71697fe097faa61cdb0b7e73c))
+* **deps-dev:** bump vitest from 4.1.1 to 4.1.2 ([#322](https://github.com/jobtrek/ex-js/issues/322)) ([1f53c9e](https://github.com/jobtrek/ex-js/commit/1f53c9e35add7eba24130222db420cce7b481bd3))
+
 ## [1.2.21](https://github.com/jobtrek/ex-js/compare/v1.2.20...v1.2.21) (2026-03-24)
 
 
