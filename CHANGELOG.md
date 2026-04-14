@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.23](https://github.com/jobtrek/ex-js/compare/v1.2.22...v1.2.23) (2026-04-01)
+
+
+### Tests
+
+* fix dead lock on displayInputContentInAlertOnEnterKey test ([839c42d](https://github.com/jobtrek/ex-js/commit/839c42dbf1d05b4ead5c4b9373a3999a65dee0a2))
+* improve tests specificity ([5b66a9f](https://github.com/jobtrek/ex-js/commit/5b66a9fc646e205e93d33e0c907904b403c4cfd3))
+
 ## [1.2.22](https://github.com/jobtrek/ex-js/compare/v1.2.21...v1.2.22) (2026-04-01)
 
 
