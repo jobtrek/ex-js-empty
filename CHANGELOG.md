@@ -1,5 +1,55 @@
 # Changelog
 
+## [1.3.3](https://github.com/jobtrek/ex-js/compare/v1.3.2...v1.3.3) (2026-04-30)
+
+
+### Bug Fixes
+
+* **basics:** fix parameter docs and use toBeCloseTo in test ([9bee40f](https://github.com/jobtrek/ex-js/commit/9bee40f379916f456d3a2cb10c412038b0683e39))
+
+## [1.3.2](https://github.com/jobtrek/ex-js/compare/v1.3.1...v1.3.2) (2026-04-28)
+
+
+### Bug Fixes
+
+* .exerciceignore to exclude CI workflow ([3d05f65](https://github.com/jobtrek/ex-js/commit/3d05f6582b5d318675dc1985b95f7f768a119117))
+
+
+### Miscellaneous Chores
+
+* fix lockfile ([d771b2d](https://github.com/jobtrek/ex-js/commit/d771b2d236c01a50096a05640f03ed4abfe566da))
+* updates ([77d1213](https://github.com/jobtrek/ex-js/commit/77d121361a16f6f93c8278a9c3eb47769a5f1e78))
+
+
+### Build System
+
+* **deps:** bump googleapis/release-please-action from 4.4.1 to 5.0.0 ([#351](https://github.com/jobtrek/ex-js/issues/351)) ([f870d4e](https://github.com/jobtrek/ex-js/commit/f870d4ee844d5ffbf6ccb9eddc8989c3aa833a67))
+
+## [1.3.1](https://github.com/jobtrek/ex-js/compare/v1.3.0...v1.3.1) (2026-04-22)
+
+
+### Build System
+
+* **deps-dev:** bump vite from 8.0.8 to 8.0.9 ([#345](https://github.com/jobtrek/ex-js/issues/345)) ([29c13a7](https://github.com/jobtrek/ex-js/commit/29c13a7ccfe02b8dcd885c540a94d102b19b99e8))
+* **deps:** bump actions/setup-node from 6.3.0 to 6.4.0 ([#344](https://github.com/jobtrek/ex-js/issues/344)) ([3513931](https://github.com/jobtrek/ex-js/commit/3513931bc3ad78ec5d5c2cb3cfaafa0510959450))
+
+## [1.3.0](https://github.com/jobtrek/ex-js/compare/v1.2.24...v1.3.0) (2026-04-15)
+
+
+### Features
+
+* improve ex instructions ([b4cd60a](https://github.com/jobtrek/ex-js/commit/b4cd60a62378a1442128f275f9f4f337b96b946e))
+
+
+### Bug Fixes
+
+* retrieveMaximumMinimumUserAges handle empty array ([daa2b83](https://github.com/jobtrek/ex-js/commit/daa2b83dd4f9c128fe4bbe35770f3d7bc8a7ef61))
+
+
+### Tests
+
+* cover more cases clearer messages ([bb0deb0](https://github.com/jobtrek/ex-js/commit/bb0deb012f00cfc37a6598618cbf9f39e03146e8))
+
 ## [1.2.24](https://github.com/jobtrek/ex-js/compare/v1.2.23...v1.2.24) (2026-04-15)
 
 

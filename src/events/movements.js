@@ -1,7 +1,7 @@
 /**
- * Register a new event listener that will retrieve the position of the mouse on the screen
- * and display the coordinates on the p with id "mouse-coordinates".
- * You need to display coordinates as follows : "x: 232, y: 332
+ * Register a new event listener that will retrieve the position of the mouse on the page
+ * and display the coordinates in the element with id "mouse-coordinates".
+ * You need to display coordinates as follows : "x: 232, y: 332"
  */
 export function mouseMovements() {
   // Write your code here
@@ -17,12 +17,12 @@ let enteringColor = ''
 
 /**
  * On the page, you have an input with the id "focus-me".
- * You need to add three behaviors to this input.
- * First, when you hover it, you have to display a message in his label with
- *        the text "Yes, you hover me !". and remove the message when the hover is loosed.
- * Second, when you focus the input, you have to change hist border color to a random one,
- *         but different from all the previously used and different from the original one.
- * Third, when you loose focus of the field, you need to reset the border color to the default one.
+ * You need to add three behaviors to this input :
+ * 1. When you hover it, display the text "Yes, you hover me !" in its label,
+ *    and restore the original label text when the hover ends.
+ * 2. When you focus the input, change its border color to a random one,
+ *    different from all previously used colors and from the original one.
+ * 3. When the input loses focus, reset the border color to the one it had before focus.
  */
 export function hoverFocusAndBlur() {
   // Write your code here
@@ -30,11 +30,10 @@ export function hoverFocusAndBlur() {
 
 /**
  * On the same input from the previous exercise, you need to add a new behavior :
- * Now, each new letter on the input should randomly change the default color of the input border.
- * You don't need to change the current border color, which is controlled by the previous exercise,
- * but you need to change the original color, the one that will be applied when the
- * precedent exercise will lose focus of the field.
- * Take the opportunity to also apply this colour to the text of the 2 input labels.
+ * Each new character typed should randomly change the default border color of the input.
+ * You don't need to change the current border color (which is controlled by the previous exercise),
+ * but you need to change the original color -- the one that will be restored when the input loses focus.
+ * Also apply this new color to the text of the input's labels.
  */
 export function changesOnInputEvents() {
   // Write your code here
