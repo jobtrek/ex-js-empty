@@ -12,17 +12,17 @@ export function getElementFromDomAndChangeColorToRed() {
 }
 
 /**
- * You need to add two paragraph in the div with id "add-your-elements-in-this-element"
- * The first paragraph must contain "Bonjour", the second "Toto"
+ * You need to add two paragraphs in the div with id "add-your-elements-in-this-element".
+ * The first paragraph must contain "Bonjour", the second "Toto".
  */
 export function addElementsInDOM() {
   // Write your code here
 }
 
 /**
- * You get a list of elements, and you have to add it in a html list, the list
- * should be in the element with id "add-list-here"
- * Each element in the list should have the background color indicated in the color key of the listElements
+ * You get an array of elements, and you have to add them as an HTML list inside
+ * the element with id "add-list-here".
+ * Each item in the list should have the background color indicated in the "color" property.
  * @param {array<{name: string, color: string}>} listElements
  */
 export function addAListInDomFromAnArrayOfObjects(listElements) {
