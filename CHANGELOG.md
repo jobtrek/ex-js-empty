@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.4](https://github.com/jobtrek/ex-js/compare/v1.3.3...v1.3.4) (2026-05-11)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.4.13 to 2.4.14 ([#354](https://github.com/jobtrek/ex-js/issues/354)) ([ad0908d](https://github.com/jobtrek/ex-js/commit/ad0908ded3da6c457d3833445c0d1716759e164f))
+* **deps:** bump pnpm/action-setup from 5.0.0 to 6.0.5 ([#355](https://github.com/jobtrek/ex-js/issues/355)) ([a6d21f8](https://github.com/jobtrek/ex-js/commit/a6d21f8d176c7bb641afcaeb5452c954d299d034))
+
 ## [1.3.3](https://github.com/jobtrek/ex-js/compare/v1.3.2...v1.3.3) (2026-04-30)
 
 
