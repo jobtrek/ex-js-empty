@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.3.6](https://github.com/jobtrek/ex-js/compare/v1.3.5...v1.3.6) (2026-05-20)
+
+
+### Build System
+
+* **deps-dev:** bump vite from 8.0.12 to 8.0.13 ([#366](https://github.com/jobtrek/ex-js/issues/366)) ([3cd8cab](https://github.com/jobtrek/ex-js/commit/3cd8cab7e986ab4a63f2f49c99c18c02e00675bc))
+* **deps:** bump pnpm/action-setup from 6.0.7 to 6.0.8 ([#365](https://github.com/jobtrek/ex-js/issues/365)) ([6aa4fcc](https://github.com/jobtrek/ex-js/commit/6aa4fccccd22a8fb3b6dbd70a5c07f0d2b6aad11))
+
+## [1.3.5](https://github.com/jobtrek/ex-js/compare/v1.3.4...v1.3.5) (2026-05-13)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.4.14 to 2.4.15 ([#361](https://github.com/jobtrek/ex-js/issues/361)) ([316681f](https://github.com/jobtrek/ex-js/commit/316681f859dc8dc93f2878ddc7d3e6600f09077c))
+* **deps-dev:** bump @playwright/test from 1.59.1 to 1.60.0 ([#357](https://github.com/jobtrek/ex-js/issues/357)) ([666d3ff](https://github.com/jobtrek/ex-js/commit/666d3ff8c6c36cbbcd5226e488699998230eb486))
+* **deps-dev:** bump vite from 8.0.10 to 8.0.12 ([#360](https://github.com/jobtrek/ex-js/issues/360)) ([af4b09c](https://github.com/jobtrek/ex-js/commit/af4b09c16c24b29a568f21cd764751ad90760a01))
+* **deps-dev:** bump vitest from 4.1.5 to 4.1.6 ([#359](https://github.com/jobtrek/ex-js/issues/359)) ([30d3ec6](https://github.com/jobtrek/ex-js/commit/30d3ec6d249e53e74f42e1964349df8559b25b64))
+* **deps:** bump pnpm/action-setup from 6.0.5 to 6.0.7 ([#358](https://github.com/jobtrek/ex-js/issues/358)) ([85eaa65](https://github.com/jobtrek/ex-js/commit/85eaa653409e7c7f78547bddb81d84a9f0339f93))
+
 ## [1.3.4](https://github.com/jobtrek/ex-js/compare/v1.3.3...v1.3.4) (2026-05-11)
 
 
