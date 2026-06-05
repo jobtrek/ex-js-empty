@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.3.8](https://github.com/jobtrek/ex-js/compare/v1.3.7...v1.3.8) (2026-06-05)
+
+
+### Miscellaneous Chores
+
+* updates ([c1d8aaa](https://github.com/jobtrek/ex-js/commit/c1d8aaa7b9587003ad95f58e97ea77fa02732aa7))
+
+
+### Build System
+
+* **deps:** bump actions/checkout from 6.0.2 to 6.0.3 ([#375](https://github.com/jobtrek/ex-js/issues/375)) ([a2cd580](https://github.com/jobtrek/ex-js/commit/a2cd580f52b81f00e29a296250780ba96d9e6c30))
+* **deps:** bump jobtrek/sw-action from 1.5.0 to 1.6.0 ([#376](https://github.com/jobtrek/ex-js/issues/376)) ([d2aef39](https://github.com/jobtrek/ex-js/commit/d2aef3949ed75291ee6a23c4ee7cbd0cf04d52d4))
+
+## [1.3.7](https://github.com/jobtrek/ex-js/compare/v1.3.6...v1.3.7) (2026-05-26)
+
+
+### Build System
+
+* **deps-dev:** bump vite from 8.0.13 to 8.0.14 ([#369](https://github.com/jobtrek/ex-js/issues/369)) ([ccf4bc2](https://github.com/jobtrek/ex-js/commit/ccf4bc2885d9ab21f0eb61b327ee7bfa05af7cd3))
+* **deps-dev:** bump vitest from 4.1.6 to 4.1.7 ([#370](https://github.com/jobtrek/ex-js/issues/370)) ([98d5239](https://github.com/jobtrek/ex-js/commit/98d5239e1495aceb092039315fc0ca97d36f767d))
+
 ## [1.3.6](https://github.com/jobtrek/ex-js/compare/v1.3.5...v1.3.6) (2026-05-20)
 
 
