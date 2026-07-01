@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.3.10](https://github.com/jobtrek/ex-js/compare/v1.3.9...v1.3.10) (2026-07-01)
+
+
+### Build System
+
+* **deps-dev:** bump @biomejs/biome from 2.5.0 to 2.5.1 ([#390](https://github.com/jobtrek/ex-js/issues/390)) ([1645749](https://github.com/jobtrek/ex-js/commit/1645749e264365ac97025478a755675a45471821))
+* **deps-dev:** bump @playwright/test from 1.61.0 to 1.61.1 ([#391](https://github.com/jobtrek/ex-js/issues/391)) ([a150aae](https://github.com/jobtrek/ex-js/commit/a150aae7188683000e39fb0092c6dc7d72c6afb5))
+* **deps-dev:** bump vite from 8.0.16 to 8.1.0 ([#389](https://github.com/jobtrek/ex-js/issues/389)) ([e054442](https://github.com/jobtrek/ex-js/commit/e054442add4ed0e90e79076d1933cee98a2d504c))
+* **deps:** bump actions/cache from 5.0.5 to 6.1.0 ([#388](https://github.com/jobtrek/ex-js/issues/388)) ([a8e9095](https://github.com/jobtrek/ex-js/commit/a8e9095583c390939b60ec74896712a020f71164))
+* **deps:** bump actions/checkout from 6.0.3 to 7.0.0 ([#385](https://github.com/jobtrek/ex-js/issues/385)) ([9f5e6f6](https://github.com/jobtrek/ex-js/commit/9f5e6f6defc37604fad06a2b9c758724e47ffee7))
+
 ## [1.3.9](https://github.com/jobtrek/ex-js/compare/v1.3.8...v1.3.9) (2026-06-18)
 
 
