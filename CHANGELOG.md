@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.3.11](https://github.com/jobtrek/ex-js/compare/v1.3.10...v1.3.11) (2026-08-14)
+
+
+### Miscellaneous Chores
+
+* update grouping ([a162a6b](https://github.com/jobtrek/ex-js/commit/a162a6ba126717ba4ffae8f827ecb715c0a2520e))
+
+
+### Build System
+
+* **deps-dev:** bump the development-dependencies group with 4 updates ([#408](https://github.com/jobtrek/ex-js/issues/408)) ([6fd573b](https://github.com/jobtrek/ex-js/commit/6fd573b51a7787523ba139cd06a5cb6d9181133f))
+* **deps:** bump actions/checkout from 7.0.0 to 7.0.1 ([#401](https://github.com/jobtrek/ex-js/issues/401)) ([cc75da4](https://github.com/jobtrek/ex-js/commit/cc75da4ac8e68ac7897b2aee831774f6d70a070c))
+* **deps:** bump actions/setup-node from 6.4.0 to 7.0.0 ([#400](https://github.com/jobtrek/ex-js/issues/400)) ([a248f18](https://github.com/jobtrek/ex-js/commit/a248f188505bac2a1dcfc5161d5add5e59d80cc4))
+* **deps:** bump pnpm/action-setup from 6.0.9 to 6.0.10 ([#406](https://github.com/jobtrek/ex-js/issues/406)) ([a071dd4](https://github.com/jobtrek/ex-js/commit/a071dd4809773f8b768b075c42054ec8466b0ead))
+
 ## [1.3.10](https://github.com/jobtrek/ex-js/compare/v1.3.9...v1.3.10) (2026-07-01)
 
 
