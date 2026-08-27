@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.12](https://github.com/jobtrek/ex-js/compare/v1.3.11...v1.3.12) (2026-08-26)
+
+
+### Build System
+
+* **deps-dev:** bump @types/node from 24.12.4 to 26.2.0 ([#409](https://github.com/jobtrek/ex-js/issues/409)) ([75f96a6](https://github.com/jobtrek/ex-js/commit/75f96a668ff585d89341974c49ff1be2f460a93f))
+* **deps-dev:** bump the development-dependencies group across 1 directory with 3 updates ([#411](https://github.com/jobtrek/ex-js/issues/411)) ([8ecdcb8](https://github.com/jobtrek/ex-js/commit/8ecdcb82b5b8224a92008208c492e25dfcf57f60))
+
 ## [1.3.11](https://github.com/jobtrek/ex-js/compare/v1.3.10...v1.3.11) (2026-08-14)
 
 
