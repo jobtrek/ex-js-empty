@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.13](https://github.com/jobtrek/ex-js/compare/v1.3.12...v1.3.13) (2026-09-04)
+
+
+### Build System
+
+* **deps-dev:** bump the development-dependencies group with 2 updates ([#413](https://github.com/jobtrek/ex-js/issues/413)) ([a3ab5a7](https://github.com/jobtrek/ex-js/commit/a3ab5a7c380d6401c7dc73730d6e047cbfbbd6ff))
+
 ## [1.3.12](https://github.com/jobtrek/ex-js/compare/v1.3.11...v1.3.12) (2026-08-26)
 
 
