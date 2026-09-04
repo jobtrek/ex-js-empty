@@ -1,4 +1,4 @@
-# JavaScript exercises v1.3.12 <!-- x-release-please-version -->
+# JavaScript exercises v1.3.13 <!-- x-release-please-version -->
 
 > Some basic exercises to discover JS.
 
