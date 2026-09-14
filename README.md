@@ -1,4 +1,4 @@
-# JavaScript exercises v1.3.12 <!-- x-release-please-version -->
+# JavaScript exercises v1.3.14 <!-- x-release-please-version -->
 
 > Some basic exercises to discover JS.
 
@@ -57,7 +57,7 @@ Use the `pnpm dev` command to start a local server and see the exercises in your
 You can easily run the playwright server on a Docker container :
 
 ```shell
-docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.61.1-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.61.1 run-server --port 8080"
+docker run --rm --network host --init -it mcr.microsoft.com/playwright:v1.63.0-noble /bin/sh -c "cd /home/pwuser && npx -y playwright@1.63.0 run-server --port 8080"
 ```
 
 This will start a Docker container with the playwright server and all the browsers binary and libraries.
