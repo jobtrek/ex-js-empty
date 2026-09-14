@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.3.14](https://github.com/jobtrek/ex-js/compare/v1.3.13...v1.3.14) (2026-09-14)
+
+
+### Build System
+
+* **deps-dev:** bump the development-dependencies group across 1 directory with 4 updates ([#418](https://github.com/jobtrek/ex-js/issues/418)) ([eb83a45](https://github.com/jobtrek/ex-js/commit/eb83a4511adcb3299c88d0f307a49eb4bbc735be))
+* **deps-dev:** bump vitest from 4.1.11 to 5.0.0 ([#416](https://github.com/jobtrek/ex-js/issues/416)) ([c762380](https://github.com/jobtrek/ex-js/commit/c762380fd98263bf4c589857fce05550139375ce))
+
+## [1.3.13](https://github.com/jobtrek/ex-js/compare/v1.3.12...v1.3.13) (2026-09-04)
+
+
+### Build System
+
+* **deps-dev:** bump the development-dependencies group with 2 updates ([#413](https://github.com/jobtrek/ex-js/issues/413)) ([a3ab5a7](https://github.com/jobtrek/ex-js/commit/a3ab5a7c380d6401c7dc73730d6e047cbfbbd6ff))
+
 ## [1.3.12](https://github.com/jobtrek/ex-js/compare/v1.3.11...v1.3.12) (2026-08-26)
 
 
