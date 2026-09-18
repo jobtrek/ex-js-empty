@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.15](https://github.com/jobtrek/ex-js/compare/v1.3.14...v1.3.15) (2026-09-15)
+
+
+### Build System
+
+* **deps:** bump pnpm/action-setup from 6.0.10 to 6.1.0 ([#419](https://github.com/jobtrek/ex-js/issues/419)) ([be6c49d](https://github.com/jobtrek/ex-js/commit/be6c49db35af89bf85a06dc3d43ba6a63fe464b6))
+
 ## [1.3.14](https://github.com/jobtrek/ex-js/compare/v1.3.13...v1.3.14) (2026-09-14)
 
 
