@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.16](https://github.com/jobtrek/ex-js/compare/v1.3.15...v1.3.16) (2026-09-29)
+
+
+### Build System
+
+* **deps-dev:** bump the development-dependencies group across 1 directory with 4 updates ([#423](https://github.com/jobtrek/ex-js/issues/423)) ([70417ad](https://github.com/jobtrek/ex-js/commit/70417ad9bcb752d605f6f7bd1a19facec8d23afb))
+* **deps:** bump jobtrek/sw-action from 1.6.0 to 1.7.0 ([#421](https://github.com/jobtrek/ex-js/issues/421)) ([41ee8f7](https://github.com/jobtrek/ex-js/commit/41ee8f732904b2848f865172d38f8919450727f6))
+
 ## [1.3.15](https://github.com/jobtrek/ex-js/compare/v1.3.14...v1.3.15) (2026-09-15)
 
 
