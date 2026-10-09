@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.18](https://github.com/jobtrek/ex-js/compare/v1.3.17...v1.3.18) (2026-10-06)
+
+
+### Build System
+
+* **deps:** bump source-map-js from 1.2.1 to 1.2.2 ([#427](https://github.com/jobtrek/ex-js/issues/427)) ([dd7bd73](https://github.com/jobtrek/ex-js/commit/dd7bd734e93e5a94b0d71b35664216644d78dee3))
+
+## [1.3.17](https://github.com/jobtrek/ex-js/compare/v1.3.16...v1.3.17) (2026-10-06)
+
+
+### Build System
+
+* **deps-dev:** bump the development-dependencies group with 4 updates ([#425](https://github.com/jobtrek/ex-js/issues/425)) ([a4174ec](https://github.com/jobtrek/ex-js/commit/a4174eceff54dd9f3b32fd84b5003381b8904c0b))
+
 ## [1.3.16](https://github.com/jobtrek/ex-js/compare/v1.3.15...v1.3.16) (2026-09-29)
 
 
