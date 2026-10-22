@@ -1,11 +1,11 @@
-# JavaScript exercises v1.3.18 <!-- x-release-please-version -->
+# JavaScript exercises v1.3.19 <!-- x-release-please-version -->
 
 > Some basic exercises to discover JS.
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) version 24. **Use [fnm](https://github.com/Schniz/fnm?tab=readme-ov-file#installation) to get the latest version**
-- [Pnpm](https://pnpm.io/installation#on-posix-systems) version 10. **Use pnpm official script for posix systems**
+- [Pnpm](https://pnpm.io/installation#on-posix-systems) version 12. **Use pnpm official script for posix systems**
 - [Docker](https://docs.docker.com/engine/install/), chose the right distribution installation instructions, don't forget to make the postinstallation steps.
 
 ## Project setup

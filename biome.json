@@ -19,7 +19,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "style": {
         "noParameterAssign": "error",
         "useAsConstAssertion": "error",
@@ -32,6 +32,16 @@
         "noInferrableTypes": "error",
         "noUselessElse": "error"
       }
+    }
+  },
+  "markdown": {
+    "formatter": {
+      "enabled": false
+    }
+  },
+  "yaml": {
+    "formatter": {
+      "enabled": false
     }
   },
   "javascript": {
