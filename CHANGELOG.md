@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.3.19](https://github.com/jobtrek/ex-js/compare/v1.3.18...v1.3.19) (2026-10-22)
+
+
+### Build System
+
+* **deps-dev:** bump biome to 2.6.2 and vite to 8.3.5 ([a41a32d](https://github.com/jobtrek/ex-js/commit/a41a32d778bb00cd1e94b6da4191da7d0b379d4a))
+* **deps-dev:** bump the development-dependencies group across 1 directory with 4 updates ([#432](https://github.com/jobtrek/ex-js/issues/432)) ([a442e1f](https://github.com/jobtrek/ex-js/commit/a442e1f85cba54b49639a6da2f4ebad8de013547))
+* **deps:** bump actions/setup-node from 7.0.0 to 7.1.0 ([#431](https://github.com/jobtrek/ex-js/issues/431)) ([ae7b073](https://github.com/jobtrek/ex-js/commit/ae7b07323ed79e9cf7cb37c9180668ddfd0394ed))
+* **deps:** bump actions/upload-artifact from 7.0.1 to 7.0.2 ([#430](https://github.com/jobtrek/ex-js/issues/430)) ([8b921fd](https://github.com/jobtrek/ex-js/commit/8b921fd09accb2ce3d4ba6f2a9d882bc659ea274))
+
+
+### Continuous Integration
+
+* pin pnpm 12 ([3aa5e3e](https://github.com/jobtrek/ex-js/commit/3aa5e3e00264f18ca5033312f8c1d7b7252b7315))
+
 ## [1.3.18](https://github.com/jobtrek/ex-js/compare/v1.3.17...v1.3.18) (2026-10-06)
 
 
