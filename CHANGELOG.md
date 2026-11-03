@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.21](https://github.com/jobtrek/ex-js/compare/v1.3.20...v1.3.21) (2026-11-03)
+
+
+### Miscellaneous Chores
+
+* updates ([a060e43](https://github.com/jobtrek/ex-js/commit/a060e4310b7eec0c44eb3705e97cbdbca258ec5e))
+
 ## [1.3.20](https://github.com/jobtrek/ex-js/compare/v1.3.19...v1.3.20) (2026-11-03)
 
 
